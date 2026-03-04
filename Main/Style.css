@@ -1,18 +1,31 @@
 body {
     margin: 0;
     background-color: black;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+h1 {
+    color: white;
 }
 
 .TopBar {
-    background-color: gray;
+    background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
-.TopBar div {
-    color: #f2f2f2; /*This is the color of the text inside TopBar*/
+.TopBar a {
+    color: #000000; /*This is the color of the text inside TopBar*/
     text-align: center;
     padding: 14px 16px;
-
+    text-decoration: none;
     font-size: 17px;
+}
+
+.ListBox {
+    box-shadow: 0 4px 8px 0 rbga(0,0,0,0.2)
+}
+
+.Container {
+    padding: 2px 16px;
 }
