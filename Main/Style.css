@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.TopBar {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.TopBar div {
+    color: #f2f2f2; /*This is the color of the text inside TopBar*/
+    text-align: center;
+    padding: 14px 16px;
+
+    font-size: 17px;
+}
