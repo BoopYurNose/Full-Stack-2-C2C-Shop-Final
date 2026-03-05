@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: black;
+    background-color: rgb(208, 211, 212);
     font-family: Trebuchet MS, sans-serif;
 }
 
@@ -8,8 +8,10 @@ h1 {
     color: white;
 }
 
+/*First Top Bar*/
+
 .TopBar {
-    background-color: white;
+    background-color: rgb(116, 188, 221);
     display: flex;
     justify-content: left;
 }
@@ -22,9 +24,50 @@ h1 {
     font-size: 17px;
 }
 
-.ListBox {
-    box-shadow: 0 4px 8px 0 rbga(0,0,0,0.2)
+/*Second Top Bar*/
+
+.SecondaryBar {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: left;
 }
+
+.SecondaryBar div {
+    color: #000000; /*This is the color of the text inside TopBar*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#SearchButton {
+    Width: 80px;
+    height: 35px;
+    margin-top: 6px; /* change this to a flexbox later (DOES NOT SCALE AT ALL WITH SCREEN SIZE LMFAO) */
+    margin-left: 1200px; /* change this to a flexbox later (DOES NOT SCALE AT ALL WITH SCREEN SIZE LMFAO) */
+}
+
+.CardSellCar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 20%;
+    transition: 0.2;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.CardSellCar:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+}
+
+
 
 .Container {
     padding: 2px 16px;
