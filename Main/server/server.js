@@ -1,7 +1,7 @@
-const express = require("express"); //NOTE: Remember everytime you update this script, you need to update the server too PLEASE DON'T FUCKING FORGET THIS,
+const express = require("express"); //NOTE: Remember everytime you update this script, you need to update the server too PLEASE DON'T FORGET THIS,
 const cors = require("cors"); // LAST TIME YOU SPENT 6 HOURS TRYING TO DEBUG THIS, ONLY TO REALIZE YOU HADN'T UPDATED YOUR SERVER THE COMMAND GOES AS FOLLOWS PLEASE PLEASE DON'T FORGET THIS!
 // node Main/server/server.js
-// also keep in mind before this delete the old terminal start a new one then run this command for future reference, :D don't be a dumbass
+// also keep in mind before this delete the old terminal start a new one then run this command for future reference, :D don't be silly
 
 const app = express();
 const PORT = 3000;
@@ -65,4 +65,5 @@ app.get("/api/cars", (req, res) => {
 
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
+
 });
